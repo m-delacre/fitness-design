@@ -1,0 +1,34 @@
+{
+    "sports": [
+        {
+            "id": 0,
+            "name": "Handball",
+            "description": " is a team sport in which two teams of seven players each pass a ball using their hands with the aim of throwing it into the goal of the opposing team.",
+            "img": "./src/assets/sport_handball.png"
+        },
+        {
+            "id": 1,
+            "name": "Basketball",
+            "description": "A team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball through the defender's hoop.",
+            "img": "./src/assets/sport_basket.png"
+        },
+        {
+            "id": 2,
+            "name": "Football",
+            "description": "Football, is a team sport played between two teams of 11 players each, who primarily use their feet to propel a ball around a rectangular field called a pitch.",
+            "img": "./src/assets/sport_foot.png"
+        },
+        {
+            "id": 3,
+            "name": "Fitness",
+            "description": "Fitness is the practice of progressive resistance exercise to build, control, and develop one's muscles via hypertrophy.",
+            "img": "./src/assets/sport_musculation.png"
+        },
+        {
+            "id": 4,
+            "name": "Running",
+            "description": "Running is a method of terrestrial locomotion by which humans and other animals move rapidly on foot.",
+            "img": "./src/assets/sport_running.png"
+        }
+    ]
+}
