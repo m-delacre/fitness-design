@@ -10,20 +10,22 @@ import Home from "./pages/Home.jsx";
 import Features from "./pages/Features.jsx";
 import Pricing from "./pages/Pricing.jsx";
 import Blog from "./pages/Blog.jsx";
-import './style.css'
+import "./style.css";
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route path="/" element={<RootLayout />}>
-            <Route index element={<Home />} />
-            <Route path="/features" element={<Features />} />
-            <Route path="/pricing" element={<Pricing />} />
-            <Route path="/blog" element={<Blog />} />
-        </Route>
+        <HashRouter basename="/">
+            <Route path="/" element={<RootLayout />}>
+                <Route index element={<Home />} />
+                <Route path="/features" element={<Features />} />
+                <Route path="/pricing" element={<Pricing />} />
+                <Route path="/blog" element={<Blog />} />
+            </Route>
+        </HashRouter>
     )
 );
 
 function App() {
-    return <HashRouter router={router} />;
+    return <RouterProvider router={router} />;
 }
 
 export default App;
