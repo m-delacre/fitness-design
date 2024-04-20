@@ -12,34 +12,20 @@ import Features from "./pages/Features.jsx";
 import Pricing from "./pages/Pricing.jsx";
 import Blog from "./pages/Blog.jsx";
 import "./style.css";
-// const router = createBrowserRouter(
-//     createRoutesFromElements(
-//         <Route path="/" element={<RootLayout />}>
-//             <Route index element={<Home />} />
-//             <Route path="/features" element={<Features />} />
-//             <Route path="/pricing" element={<Pricing />} />
-//             <Route path="/blog" element={<Blog />} />
-//         </Route>
-//     )
-// );
 
-// function App() {
-//     return <RouterProvider router={router} />;
-// }
+const router = createBrowserRouter(
+    createRoutesFromElements(
+        <Route path="/" element={<RootLayout />}>
+            <Route index element={<Home />} />
+            <Route path="/features" element={<Features />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/blog" element={<Blog />} />
+        </Route>
+    )
+);
 
 function App() {
-    return (
-        <Router>
-            <RootLayout>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/features" element={<Features />} />
-                    <Route path="/pricing" element={<Pricing />} />
-                    <Route path="/blog" element={<Blog />} />
-                </Routes>
-            </RootLayout>
-        </Router>
-    );
+    return <RouterProvider router={router} />;
 }
 
 export default App;
