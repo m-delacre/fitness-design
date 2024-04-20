@@ -13,14 +13,12 @@ import Blog from "./pages/Blog.jsx";
 import "./style.css";
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <HashRouter basename="/fitness-design/">
-            <Route path="/" element={<RootLayout />}>
-                <Route index element={<Home />} />
-                <Route path="/features" element={<Features />} />
-                <Route path="/pricing" element={<Pricing />} />
-                <Route path="/blog" element={<Blog />} />
-            </Route>
-        </HashRouter>
+        <Route path="/" element={<RootLayout />}>
+            <Route index element={<Home />} />
+            <Route path="/features" element={<Features />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/blog" element={<Blog />} />
+        </Route>
     )
 );
 
