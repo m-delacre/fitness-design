@@ -7,7 +7,7 @@ import { HashRouter } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <ChakraProvider>
-            <HashRouter basename="/">
+            <HashRouter basename="/fitness-design/">
                 <App />
             </HashRouter>
         </ChakraProvider>
