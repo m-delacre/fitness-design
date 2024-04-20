@@ -29,16 +29,16 @@ export default function Navbar() {
             alignItems="center"
         >
             <HStack spacing={{ base: '10', sm: '20',  md: '20', lg: '20', xl:'20' }} fontSize={{ base: '18px', sm: '22px',  md: '22px', lg: '22px', xl:'22px' }} fontWeight='600'>
-                <Link to="/">
+                <Link to="/fitness-design/">
                     <Text>Home</Text>
                 </Link>
-                <Link to="/features">
+                <Link to="/fitness-design/features">
                     <Text>Features</Text>
                 </Link>
-                <Link to="/pricing">
+                <Link to="/fitness-design/pricing">
                     <Text>Pricing</Text>
                 </Link>
-                <Link to="/blog">
+                <Link to="/fitness-design/blog">
                     <Text>Blog</Text>
                 </Link>
             </HStack>
