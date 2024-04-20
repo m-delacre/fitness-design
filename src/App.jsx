@@ -1,4 +1,5 @@
 import {
+    HashRouter,
     Route,
     RouterProvider,
     createBrowserRouter,
@@ -22,7 +23,7 @@ const router = createBrowserRouter(
 );
 
 function App() {
-    return <RouterProvider router={router} />;
+    return <HashRouter router={router} />;
 }
 
 export default App;
