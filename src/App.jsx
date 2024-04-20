@@ -13,7 +13,7 @@ import Blog from "./pages/Blog.jsx";
 import "./style.css";
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <HashRouter basename="/">
+        <HashRouter basename="/fitness-design/">
             <Route path="/" element={<RootLayout />}>
                 <Route index element={<Home />} />
                 <Route path="/features" element={<Features />} />
