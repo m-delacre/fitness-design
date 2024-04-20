@@ -1,8 +1,10 @@
-# React + Vite
+# :weight_lifting_man: Fitness Design
+Integration of a web design found on [dribbble](https://dribbble.com/shots/23108186-Fitness-Guiding-Website-Design).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The goal here was just to practice and use the [Chakra UI](https://v2.chakra-ui.com/) library for the first time.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## :sparkles: Tools used
+* [Vite](https://vitejs.dev/)
+* [React](https://fr.react.dev/)
+* [Chakra UI](https://v2.chakra-ui.com/)
+* [React Router](https://reactrouter.com/en/main)
